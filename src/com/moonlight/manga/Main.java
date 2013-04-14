@@ -16,7 +16,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		try {
-			String testUrl = "http://g.e-hentai.org/g/583608/3aeb0e91aa/";
+			String testUrl = "http://lofi.e-hentai.org/g/583842/6d746f66ae/";
 			HTMLReader reader = new HTMLReader(Web.get(testUrl));
 			ArrayList<String> pages = reader.getImagePageUrlList();
 			BufferedImage image = null;
